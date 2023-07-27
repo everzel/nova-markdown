@@ -1,0 +1,43 @@
+{
+    "name": "everzel/nova-markdown",
+    "description": "A Laravel Nova Markdown Field.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "field",
+        "markdown",
+        "image upload"
+    ],
+    "authors": [
+        {
+            "name": "Dinand Mentink",
+            "email": "dinand@dcreative.nl",
+            "homepage": "https://www.dcreative.nl",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/everzel/nova-markdown",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4",
+        "illuminate/support": "^8.13",
+        "spatie/image": "^1.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Everzel\\Markdown\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Everzel\\Markdown\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
