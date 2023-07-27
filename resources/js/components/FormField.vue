@@ -66,7 +66,7 @@ export default {
       showIcons: ["table"],
       toolbar: [
          'bold', 'italic',
-         '|', 'heading', 'heading-2', 'heading-3', 'heading-4',
+         '|', 'heading', 'heading-2', 'heading-3',
          '|', 'unordered-list', 'ordered-list',
          '|', 'link', 'table',
          '|', 'preview', 'guide',
